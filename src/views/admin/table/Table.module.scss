@@ -1,0 +1,23 @@
+input {
+    border-radius: 2px;
+    border: 1px solid transparent;
+    &:focus {
+        border: 1px solid gray;
+    }
+}
+
+.input-measureId,
+.input-ingredientId {
+    width: 2rem;
+}
+
+.input-name {
+    width: 10rem;
+}
+
+.input-calo,
+.input-carb,
+.input-fiber,
+.input-protein {
+    width: 4rem;
+}

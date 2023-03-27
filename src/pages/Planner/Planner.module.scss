@@ -1,0 +1,15 @@
+.accourdion {
+    height: 62vh;
+    overflow: scroll;
+    button {
+        font-size: 1.4rem;
+    }
+}
+
+.btn-group {
+    display: flex;
+    justify-content: flex-end;
+    button {
+        margin-left: 1rem;
+    }
+}

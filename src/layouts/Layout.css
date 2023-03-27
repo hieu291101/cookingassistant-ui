@@ -1,0 +1,11 @@
+.layout-container {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--content-margin-top);
+}
+
+.inner-layout {
+    width: 100%;
+    max-width: var(--default-layout-width);
+}
+

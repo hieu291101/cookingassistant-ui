@@ -1,0 +1,27 @@
+.wrapper {
+    padding: 20px 0 26px 8px;
+    // margin-left: -18px;
+}
+
+.heading-filter {
+    margin-top: var(--default-spacing);
+    font-weight: 700;
+    padding-top: var(--default-spacing);
+    border-top: 1px solid gray;
+}
+
+.filter-condition {
+    margin-top: var(--default-spacing);
+    label {
+        font-weight: 700;
+    }
+
+    input {
+        font-size: 1.6rem;
+    }
+}
+
+.btn-filter {
+    display: flex;
+    justify-content: space-around;
+}

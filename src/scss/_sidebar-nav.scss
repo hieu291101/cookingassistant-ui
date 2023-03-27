@@ -1,0 +1,11 @@
+.sidebar {
+    --cui-sidebar-nav-link-active-bg: rgba(255, 255, 255, 0.16);
+    --cui-sidebar-width: 20rem;
+    --cui-sidebar-bg: #333;
+    --cui-sidebar-nav-link-active-bg: var(--primary);
+    // --cui-sidebar-nav-link-hover-bg: var(--primary);
+}
+
+.sidebar:not(.sidebar-end) ~ * {
+    --cui-sidebar-occupy-start: 20rem;
+}

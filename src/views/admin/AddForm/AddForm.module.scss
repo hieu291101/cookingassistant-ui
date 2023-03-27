@@ -1,0 +1,20 @@
+.add-form {
+    --width-label: 14rem;
+    display: flex;
+    margin: 1rem 0;
+    input {
+        border-radius: 2px;
+        border: 1px solid transparent;
+        &:focus {
+            border: 1px solid gray;
+        }
+    }
+}
+
+.add-form-heading {
+    width: var(--width-label);
+    max-width: var(--width-label);
+    font-weight: 600;
+}
+
+// .add-form-heading

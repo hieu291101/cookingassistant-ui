@@ -1,0 +1,23 @@
+.dropdown {
+    display: flex;
+    justify-content: center;
+    button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 15rem;
+        font-size: var(--default-font-size);
+    }
+}
+
+.dropdown-item {
+    width: 15rem;
+    font-size: var(--default-font-size);
+}
+
+button.btn-action {
+}
+
+button.button {
+    font-size: var(--default-font-size);
+}

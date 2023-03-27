@@ -1,0 +1,32 @@
+.container {
+    margin: auto;
+    a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 1rem var(--default-spacing);
+        margin-top: var(--default-spacing);
+        color: white;
+        font-weight: 700;
+        margin-left: 0 !important;
+    }
+    a:hover {
+        color: white;
+    }
+}
+
+.form-group {
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    input {
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+}
+
+.form-group-main {
+    height: 9rem;
+}

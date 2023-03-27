@@ -1,0 +1,3 @@
+.carousel-inner {
+    max-height: calc(100vh - var(--content-margin-top));
+}

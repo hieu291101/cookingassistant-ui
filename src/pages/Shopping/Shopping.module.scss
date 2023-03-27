@@ -1,0 +1,44 @@
+.storage-wrapper {
+    height: 50vh;
+    padding: 1rem;
+    box-shadow: var(--box-shadow);
+    overflow: scroll;
+}
+
+.btn-attach {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.5rem;
+    svg {
+        display: inline-block;
+        cursor: pointer;
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--default-spacing) 0;
+    margin: var(--default-spacing) 0;
+}
+
+.shopping-export {
+    button {
+        min-width: 0;
+    }
+}
+
+.shopping-button {
+    button {
+        margin-left: 1rem;
+    }
+}
+
+.shopping-tb-button {
+    min-width: 0;
+    background-color: transparent;
+    padding: 0.5rem;
+}
